@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Subscription Suite">
+    <test name="Subscription Tests">
+        <classes>
+            <class name="tests.Subscription"/>
+        </classes>
+    </test>
+</suite>
+<suite name="API Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="tests.NewDevice"/>
+        </classes>
+    </test>
+</suite>
+
